@@ -16,11 +16,17 @@ h1 {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-a {
-  display: block;
-  margin: 20px auto;
+.footer {
   text-align: center;
+}
+.footer a {
   color: #65647c;
+  margin: 10px;
+  text-decoration: none;
+  transition: ease-in 200ms all;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 img {
   display: block;
@@ -38,6 +44,8 @@ img {
   border-style: dotted;
   border-color: #8b7e74;
   background-color: #f1d3b3;
+  display: block;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
 }
