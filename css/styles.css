@@ -46,6 +46,14 @@ img {
   background-color: #f1d3b3;
   display: block;
   margin: 0 auto;
+  font-size: 20px;
+  color: #8b7e74;
+  text-align: center;
+  text-decoration: none;
   margin-top: 100px;
   margin-bottom: 100px;
+  transition: ease-in 200ms all;
+}
+.email-link:hover {
+  font-weight: bolder;
 }
